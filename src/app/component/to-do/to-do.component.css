@@ -1,0 +1,8 @@
+.toDoItem {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.done {
+  background-color: green;
+}

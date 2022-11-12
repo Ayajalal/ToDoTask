@@ -1,0 +1,12 @@
+<app-to-do
+  *ngFor="let todo of tasksList"
+  [todo]="todo"
+  (toggleEvent)="updateTodo($event)"
+  (deleteEvent)="Delete($event)"
+></app-to-do>
+<!-- <app-to-do
+  *ngFor="let todo of tasksList"
+  [todo]="todo"
+  (toggleEvent)="updateTodo($event)"
+></app-to-do> -->
+<app-add-to-do (nameEvent)="addTask($event)"></app-add-to-do>
